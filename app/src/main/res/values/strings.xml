@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Czytanka</string>
+
+    <string name="title_popular">Popular</string>
+    <string name="title_books">Books</string>
+    <string name="title_downloads">Downloads</string>
+    <string name="cover">cover</string>
+    <string name="title_activity_book_detail">BookDetailActivity</string>
+    <string name="author">Author:</string>
+    <string name="painter">Painter:</string>
+    <string name="rationale_permissions">suck it</string>
+    <string name="upload">upload</string>
+    <string name="denied">Permission denied, upload is impossible!</string>
+</resources>

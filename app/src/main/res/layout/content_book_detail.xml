@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:showDividers="middle"
+                android:divider="@drawable/empty_tall_divider"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <FrameLayout
+                    android:layout_gravity="center"
+                    android:layout_width="276dp"
+                    android:layout_height="296dp">
+
+                <ImageView
+                        android:id="@+id/imgCover"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:layout_width="200dp"
+                        android:layout_height="240dp" android:contentDescription="@string/cover"/>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fabUpload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="@dimen/fab_margin"
+                        app:srcCompat="@drawable/ic_file_download_blue_24dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                    android:layout_margin="8dp"
+                    android:textAlignment="center"
+                    android:id="@+id/txtAuthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_margin="8dp"
+                    android:textAlignment="center"
+                    android:id="@+id/txtPainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_margin="8dp"
+                    android:textAlignment="center"
+                    android:id="@+id/txtAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_margin="8dp"
+                    android:textAlignment="center"
+                    android:id="@+id/txtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
